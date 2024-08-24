@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto Slab&display=swap');
+body{
+    font-family: Roboto Slab,serif;
+    background: linear-gradient(56563deg, #118109 10%, #d3ffb8 100%);
+}
+h3, h4,h5{
+    color: #072907;
+}
+ol{
+    color: #063506;
+
+}
+p{
+    color: #063506;
+}
+.my-main{
+    color: #042504;
+    background: linear-gradient(56563deg, #16880e 10%, #a2dd7d 100%);
+    box-shadow: 0px 1px 32px 7px #156f17;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 0px solid ;
+    
+    
+}
+.nav-link{
+    color: darkgreen;
+}
+
+ 
+.nav-link.active,
+ .dropdown{
+    color: darkgreen;
+}
+.nav-item{
+    color: darkgreen;
+}
+
+.navbar-nav {
+    color: darkgreen;
+    font-size: 20px;
+
+}
+
+.navbar-brand img{
+   width: 40px;
+}
+
+.navbar-toggler{
+    background-color: darkgreen;
+    color: rgb(57, 141, 57);
+}
+
+/* Декор верху */
+
+
+.dropdown-item{
+    color: darkgreen;
+    
+
+}
+.dropdown-item:hover {
+    color: rgb(4, 44, 4);
+    background-color: rgb(61, 155, 53);
+    
+}
+/* Бокова панель головної сторінки */
+
+.my-main-sidebar{
+    color: #042504;
+    background: linear-gradient(56563deg, #16880e 10%, #a2dd7d 100%);
+    box-shadow: 0px 1px 32px 7px #156f17;
+   
+    border-radius: 10px;
+    overflow: hidden;
+    border: 0px solid ;
+    
+    
+}
+.carousel-item .col-lg-6 {
+    aspect-ratio: 16 / 9; /* або будь-яке інше співвідношення */
+    overflow: hidden;
+}
+
+
+  
+ @media (min-width: 992px) {
+    .my-main {
+       padding-right: 15px; 
+       margin: 20px;
+      
+     
+    }
+    
+    .my-main-sidebar {
+      margin-left: 40px;
+      margin-right: 40px;
+     
+     
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .my-main,.my-main-sidebar {
+      margin-left: 0;
+      margin-right: 0;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    
+  } 
+  
+  .my-main-sidebar {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .img-card {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .row.px-2 {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  
+  .row.px-2 > [class*="col-"] {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+.carousel-item .col-lg-6 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.slide-text {
+    color: #042504;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.my-custom-button-first{
+    color: #0a3f07;
+    background: linear-gradient(56563deg, #16880e 10%, #a2dd7d 100%); 
+    border-color:#118109;
+    width: auto;
+    margin: 25px;
+    
+}
+
+.my-custom-button-first:hover{
+    color: #e8eee8;
+    background: linear-gradient(56563deg, #196d13 10%, #a2dd7d 100%); 
+    border-color:#118109;
+}
+
+.d-inline-flex {
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  @media (max-width: 768px) {
+    .d-inline-flex {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .my-custom-button-first {
+      width: 100%;
+      max-width: 250px;
+    }
+  }
+
+  .my-card{
+    color: #0a3f07;
+    background: linear-gradient(56563deg, #2b9c23 10%, #a2dd7d 100%); 
+    border-color:#118109;
+    width: auto;
+  }
+
+  
+.my-custom-button{
+    color: #0a3f07;
+    background: linear-gradient(56563deg, #16880e 10%, #a2dd7d 100%); 
+    border-color:#118109;
+    width: auto;
+    
+}
+.my-custom-button:hover{
+    color: #0a3f07;
+    background: linear-gradient(56563deg, #196d13 10%, #a2dd7d 100%); 
+    border-color:#118109;
+}
+.btn-outline-success{
+    color: #0e410a;
+    background: linear-gradient(56563deg, #16880e 10%, #a2dd7d 100%); 
+    border-color:#118109;
+}
+
+.offcanvas {
+    color: #0a3f07;
+    background: linear-gradient(56563deg, #16880e 10%, #a2dd7d 100%);
+}
+
+.offcanvas-body {
+    background: linear-gradient(56563deg, #16880e 10%, #a2dd7d 100%); 
+    color: #0a3f07;
+    
+ }
+  /* Змінюємо колір тексту для номера телефона та email */
+  .letter {
+    color: #0a3f07;
+  }
+ 
+  
+  
+  
+
+.media-links
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media(max-width:755px){
+  .carousel-indicators{
+    display: none;
+  }  
+}
+
+.call-anim{
+    animation: myAnim 4s ease 0s infinite normal forwards;
+}
+
+.img-card{
+    padding: 10px;
+}
+
+.custom-link{
+  text-decoration: none;  /* Прибирає підкреслення */
+  color: #04410a;            /* Змінює колір тексту на чорний */
+  font-weight: bold;     
+}
+
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.91);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.98);
+	}
+
+	33% {
+		animation-timing-function: ease-in;
+		transform: scale(0.87);
+	}
+
+	45% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+}
+footer{
+    background: linear-gradient(56563deg, #16880e 10%, #a2dd7d 100%); 
+    
+    
+}
+.text-down  {
+    text-decoration: none;
+    color: #042504;
+}
+.footer-text{
+    color: #042504;
+    margin: auto auto;
+}
+
+.letter{
+    font-weight: bold;
+}
+
+/* prising */
+
+.card {
+    box-shadow: 0px 1px 32px 7px #156f17;
+    color: rgb(5, 56, 5);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+.card-img-top {
+    width: 100%;
+    height: 100%; /* або інша бажана висота */
+    object-fit: cover;
+}
+.card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    color: rgb(5, 56, 5);
+      
+    
+}
+.small-text {
+    font-size:13px; /* або будь-який інший бажаний розмір */
+    color: rgb(5, 56, 5);
+   
+
+  }
+.card a{
+    text-decoration: none;
+     color: rgb(5, 56, 5);
+}
+
+.card-text {
+    flex-grow: 1;
+    color: rgb(5, 56, 5);
+    
+
+} 
+.card-title{
+    color: rgb(5, 56, 5);
+      
+}
+.btn-primary {
+    margin-top: auto;
+    width: auto;  /* Ширина кнопки - половина від ширини контейнера */
+    align-self: flex-start;
+    color: #0e410a;
+    background: linear-gradient(56563deg, #16880e 10%, #a2dd7d 100%); 
+    border-color:#118109;
+    
+}
+.btn-primary:hover{
+    background: linear-gradient(56563deg, #12610c 10%, #a2dd7d 100%); 
+    border-color:#127e0b;
+}
+
+.prise{
+    color:#16880e;
+    font-size: 17px;
+
+}
+
+/* Контакти */
+.form-label{
+    color: rgb(5, 56, 5);
+
+}
+/* Бокова панель */
+.col-lg-3 .my-sidebar {
+    border-radius: 10px;
+    overflow: hidden;
+    border: 0px solid ;
+    background: linear-gradient(56563deg, #12610c 10%, #a2dd7d 100%); 
+    box-shadow: 0px 1px 32px 7px #156f17;
+   
+}
+
+.col-lg-3 .my-sidebar .nav {
+    padding: 0; /* Прибираємо внутрішні відступи у списку */
+}
+.my-sidebar p{
+   padding-top: 13px;
+}
+.col-lg-3 .my-sidebar .nav-item {
+    border-bottom: 1px solid #b0eeb0;
+}
+
+.col-lg-3 .my-sidebar .nav-item:last-child {
+    border-bottom: none;
+}
+
+.col-lg-3 .my-sidebar .nav-link {
+    color: #092c09;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    padding: 10px 15px;
+}
+
+.col-lg-3 .my-sidebar .nav-link:hover {
+    color: #000000;
+    background: linear-gradient(56563deg, #306e2b 10%, #a2dd7d 100%); 
+    
+}
+
+.col-lg-3 .my-sidebar .nav-link.active {
+    color: #000000;
+    background: linear-gradient(56563deg, #baf8b5 10%, #b3f0b0 100%); 
+   
+}
+
+/* Про нас */
+.container-about{
+    color: #042504;
+    background: linear-gradient(56563deg, #16880e 10%, #a2dd7d 100%);
+    box-shadow: 0px 1px 32px 7px #156f17;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 0px solid ;
+}
+
+/* Оплата */
+.my-alert{
+    background-color: #b3f0b0;
+}
+
+
